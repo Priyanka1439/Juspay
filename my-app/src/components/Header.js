@@ -8,18 +8,14 @@ import {
     InputAdornment,
     Badge,
     Box,
-    Chip,
     useTheme,
     useMediaQuery,
 } from '@mui/material';
 import {
     Search,
     Notifications,
-    AccountCircle,
     LightMode,
     DarkMode,
-    Menu as MenuIcon,
-    Description,
     Star,
     History,
 } from '@mui/icons-material';
@@ -30,6 +26,7 @@ const Header = ({ onToggleTheme, isDarkMode, onDrawerToggle, drawerOpen = true, 
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     const isTablet = useMediaQuery(theme.breakpoints.down('lg'));
+    console.log(isMobile, isTablet);
     return (
         <AppBar
             position="sticky"

@@ -1,20 +1,20 @@
 import React from 'react';
-import { Box, Grid, Card, CardContent, Typography, Chip, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Tooltip as MuiTooltip } from '@mui/material';
+import { Box, Grid, Card, CardContent, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tooltip as MuiTooltip } from '@mui/material';
 import { TrendingUp, TrendingDown } from '@mui/icons-material';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Legend, PieChart, Pie, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts';
 import { styled } from '@mui/material/styles';
 import './styles/DefaultPage.css';
 
-const Item = styled(Box)(({ theme }) => ({
-    backgroundColor: '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: (theme.vars ?? theme).palette.text.secondary,
-    ...theme.applyStyles('dark', {
-        backgroundColor: '#1A2027',
-    }),
-}));
+// const Item = styled(Box)(({ theme }) => ({
+//     backgroundColor: '#fff',
+//     ...theme.typography.body2,
+//     padding: theme.spacing(1),
+//     textAlign: 'center',
+//     color: (theme.vars ?? theme).palette.text.secondary,
+//     ...theme.applyStyles('dark', {
+//         backgroundColor: '#1A2027',
+//     }),
+// }));
 
 const KPICard = styled(Card)(({ theme, isHighlighted }) => ({
     height: '100%',

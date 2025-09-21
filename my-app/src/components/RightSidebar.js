@@ -1,10 +1,9 @@
 import React from 'react';
-import { Grid, Card, CardContent, Typography, Box, Avatar, Divider, IconButton, useTheme, useMediaQuery } from '@mui/material';
+import { Card, CardContent, Typography, Box, Avatar, IconButton, useTheme, useMediaQuery } from '@mui/material';
 import {
     BugReport,
     PersonAdd,
     BroadcastOnPersonal,
-    Timeline,
     Person,
     Close
 } from '@mui/icons-material';

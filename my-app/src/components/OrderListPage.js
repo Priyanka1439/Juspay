@@ -13,9 +13,7 @@ import {
     Avatar,
     IconButton,
     TextField,
-    InputAdornment,
-    Pagination,
-    Stack
+    InputAdornment
 } from '@mui/material';
 import {
     Add,
