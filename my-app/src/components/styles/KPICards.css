@@ -1,0 +1,83 @@
+.kpi-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  transition: all 0.2s ease;
+}
+
+.kpi-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.kpi-card.dark-theme {
+  background-color: #1e1e1e;
+  border-color: #333333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.kpi-card-content {
+  padding: 20px;
+}
+
+.kpi-card-main {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 12px;
+  height: 100%;
+}
+
+.kpi-card-info {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 8px;
+}
+
+.kpi-card-title {
+  color: #6b7280;
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.kpi-card-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1;
+}
+
+.kpi-card-change {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.kpi-chip {
+  font-size: 0.75rem;
+  height: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.kpi-chip.success {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.kpi-chip.error {
+  background-color: #fef2f2;
+  color: #dc2626;
+}
+
+.kpi-chip-icon {
+  font-size: 14px;
+}

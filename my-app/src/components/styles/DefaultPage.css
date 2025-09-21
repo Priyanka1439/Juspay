@@ -1,0 +1,35 @@
+.default-page {
+  padding: 16px;
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #f8fafc;
+  height: 100%;
+}
+
+@media (min-width: 600px) {
+  .default-page {
+    padding: 24px;
+  }
+}
+
+.default-page.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.default-page.dark-theme .MuiCard-root {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+.default-page.dark-theme .MuiTypography-root {
+  color: #ffffff;
+}
+
+.default-page.dark-theme .MuiTypography-colorTextSecondary {
+  color: #a0a0a0;
+}
+
+.kpi-cards {
+  max-height: 310px;
+}

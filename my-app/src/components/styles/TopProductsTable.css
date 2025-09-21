@@ -1,0 +1,92 @@
+.products-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.products-card.dark-theme {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.products-card-content {
+  padding: 16px;
+}
+
+.products-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #212121;
+}
+
+.products-table-container {
+  overflow-x: auto;
+}
+
+.products-table {
+  min-width: 100%;
+}
+
+.products-table-head {
+  background-color: #f5f5f5;
+}
+
+.products-table-head.dark-theme {
+  background-color: #2e2e2e;
+}
+
+.products-table-cell {
+  font-weight: 500;
+  color: #212121;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.products-table-cell.dark-theme {
+  color: #ffffff;
+  border-bottom-color: #424242;
+}
+
+.products-table-cell-right {
+  text-align: right;
+}
+
+.products-table-row {
+  transition: background-color 0.2s;
+}
+
+.products-table-row:hover {
+  background-color: #f5f5f5;
+}
+
+.products-table-row.dark-theme:hover {
+  background-color: #2e2e2e;
+}
+
+.products-table-cell-data {
+  color: #212121;
+  font-size: 0.875rem;
+}
+
+.products-table-cell-data.dark-theme {
+  color: #ffffff;
+}
+
+.products-table-cell-price {
+  color: #212121;
+  font-size: 0.875rem;
+  text-align: right;
+}
+
+.products-table-cell-quantity {
+  color: #212121;
+  font-size: 0.875rem;
+  text-align: right;
+}
+
+.products-table-cell-amount {
+  color: #212121;
+  font-size: 0.875rem;
+  text-align: right;
+  font-weight: 500;
+}

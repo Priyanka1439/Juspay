@@ -1,0 +1,216 @@
+.right-sidebar-card {
+  box-shadow: none;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffffff !important;
+}
+
+.right-sidebar-card.dark-theme {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.notifications-card {
+  border: none;
+}
+
+.right-sidebar-container {
+  background-color: #ffffff !important;
+  padding: 8px;
+  border-radius: 12px;
+  width: 400px;
+}
+
+.right-sidebar-card-content {
+  padding: 5px;
+}
+
+.right-sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #212121;
+}
+
+.right-sidebar-item {
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.right-sidebar-item.dark-theme {
+  background-color: #2e2e2e;
+}
+
+.right-sidebar-item:hover {
+  background-color: #eeeeee;
+}
+
+.right-sidebar-item.dark-theme:hover {
+  background-color: #424242;
+}
+
+.right-sidebar-item-text {
+  font-size: 0.875rem;
+  color: #212121;
+  margin-bottom: 4px;
+}
+
+.right-sidebar-item.dark-theme .right-sidebar-item-text {
+  color: #ffffff;
+}
+
+.right-sidebar-item-time {
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.right-sidebar-contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.right-sidebar-contact-avatar {
+  margin-right: 16px;
+  background-color: #1976d2;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.right-sidebar-contact-name {
+  font-size: 0.875rem;
+  color: #212121;
+}
+
+.right-sidebar-contact-name.dark-theme {
+  color: #ffffff;
+}
+
+/* Notifications */
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+.notification-icon {
+  margin-right: 12px;
+  margin-top: 2px;
+  color: #4caf50;
+  font-size: 20px;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-text {
+  font-size: 0.875rem;
+  color: #212121;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.notification-time {
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+/* Activities Timeline */
+.activities-timeline {
+  position: relative;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.activity-avatar-container {
+  position: relative;
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-avatar {
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  z-index: 2;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 32px;
+  width: 2px;
+  height: 20px;
+  background-color: #e0e0e0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.activity-content {
+  flex: 1;
+  padding-top: 4px;
+}
+
+.activity-text {
+  font-size: 0.875rem;
+  color: #212121;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.activity-time {
+  font-size: 0.75rem;
+  color: #757575;
+}
+
+.right-sidebar-card {
+  box-shadow: none !important;
+  padding-bottom: 0px !important;
+}
+
+/* Contacts */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.contact-avatar {
+  margin-right: 12px;
+  background-color: #4caf50;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.contact-name {
+  font-size: 0.875rem;
+  color: #212121;
+  font-weight: 500;
+}
+
+.contact-name.dark-theme {
+  color: #ffffff;
+}
+
+/* Dark theme adjustments */
+.notification-item.dark-theme .notification-text {
+  color: #ffffff;
+}
+
+.activity-item.dark-theme .activity-text {
+  color: #ffffff;
+}

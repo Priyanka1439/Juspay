@@ -1,0 +1,37 @@
+/* Mobile-first responsive sidebar styles */
+.sidebar-container {
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-container.dark-theme {
+  background-color: #1e1e1e;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .sidebar-container {
+    width: 100%;
+  }
+
+  .sidebar-list {
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar-container {
+    min-width: 200px;
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1025px) {
+  .sidebar-container {
+    min-width: 240px;
+  }
+}
